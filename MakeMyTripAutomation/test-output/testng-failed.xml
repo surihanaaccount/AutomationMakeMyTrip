@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Make My Trip Application Test Automation Test Suite]">
+  <test thread-count="5" name="Make my Trip Test Cases in Firefox(failed)">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="com.make.trip.testcases.FlightPageTest1">
+        <methods>
+          <include name="clickFlight"/>
+          <include name="setUp"/>
+          <include name="fillFlightBookingDetails"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.make.trip.testcases.FlightPageTest1 -->
+    </classes>
+  </test> <!-- Make my Trip Test Cases in Firefox(failed) -->
+</suite> <!-- Failed suite [Make My Trip Application Test Automation Test Suite] -->

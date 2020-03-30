@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Make My Trip Application Test Automation Test Suite"  parallel="none">
+
+<listeners>
+		<listener class-name="com.make.trip.reports.TripListener" />
+	</listeners>
+ 
+ <test name="Make my Trip Test Cases in Firefox">
+     <parameter name="browser" value="Firefox" />
+		<classes>
+		    <class name="com.make.trip.testcases.FlightPageTest1"></class> 
+			
+		</classes>
+	</test>
+	<test name="Make my Trip Test Cases in Chrome">
+        <parameter name="browser" value="Chrome" />
+		<classes>
+		    <class name="com.make.trip.testcases.FlightPageTest1"></class> 
+		</classes>
+	</test>
+	 
+</suite>

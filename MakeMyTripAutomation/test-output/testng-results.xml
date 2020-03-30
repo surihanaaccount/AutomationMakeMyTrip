@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Make My Trip Application Test Automation Test Suite" duration-ms="242938" started-at="2020-03-26T14:10:10 IST" finished-at="2020-03-26T14:14:13 IST">
+    <groups>
+    </groups>
+    <test name="Make my Trip Test Cases in Firefox" duration-ms="130729" started-at="2020-03-26T14:10:10 IST" finished-at="2020-03-26T14:12:21 IST">
+      <class name="com.make.trip.testcases.FlightPageTest1">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.make.trip.testcases.FlightPageTest1@7d0587f1]" name="setUp" is-config="true" duration-ms="11818" started-at="2020-03-26T14:10:10 IST" finished-at="2020-03-26T14:10:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickFlight()[pri:0, instance:com.make.trip.testcases.FlightPageTest1@7d0587f1]" name="clickFlight" duration-ms="8029" started-at="2020-03-26T14:10:22 IST" finished-at="2020-03-26T14:10:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickFlight -->
+        <test-method status="PASS" signature="fillFlightBookingDetails()[pri:0, instance:com.make.trip.testcases.FlightPageTest1@7d0587f1]" name="fillFlightBookingDetails" duration-ms="46821" started-at="2020-03-26T14:10:30 IST" depends-on-methods="com.make.trip.testcases.FlightPageTest1.clickFlight" finished-at="2020-03-26T14:11:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillFlightBookingDetails -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.make.trip.testcases.FlightPageTest1@7d0587f1]" name="tearDown" is-config="true" duration-ms="63680" started-at="2020-03-26T14:11:17 IST" finished-at="2020-03-26T14:12:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.make.trip.testcases.FlightPageTest1 -->
+    </test> <!-- Make my Trip Test Cases in Firefox -->
+    <test name="Make my Trip Test Cases in Chrome" duration-ms="110841" started-at="2020-03-26T14:12:22 IST" finished-at="2020-03-26T14:14:13 IST">
+      <class name="com.make.trip.testcases.FlightPageTest1">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.make.trip.testcases.FlightPageTest1@17579e0f]" name="setUp" is-config="true" duration-ms="16811" started-at="2020-03-26T14:12:22 IST" finished-at="2020-03-26T14:12:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickFlight()[pri:0, instance:com.make.trip.testcases.FlightPageTest1@17579e0f]" name="clickFlight" duration-ms="290" started-at="2020-03-26T14:12:39 IST" finished-at="2020-03-26T14:12:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickFlight -->
+        <test-method status="PASS" signature="fillFlightBookingDetails()[pri:0, instance:com.make.trip.testcases.FlightPageTest1@17579e0f]" name="fillFlightBookingDetails" duration-ms="33582" started-at="2020-03-26T14:12:39 IST" depends-on-methods="com.make.trip.testcases.FlightPageTest1.clickFlight" finished-at="2020-03-26T14:13:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillFlightBookingDetails -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.make.trip.testcases.FlightPageTest1@17579e0f]" name="tearDown" is-config="true" duration-ms="60146" started-at="2020-03-26T14:13:13 IST" finished-at="2020-03-26T14:14:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.make.trip.testcases.FlightPageTest1 -->
+    </test> <!-- Make my Trip Test Cases in Chrome -->
+  </suite> <!-- Make My Trip Application Test Automation Test Suite -->
+</testng-results>
