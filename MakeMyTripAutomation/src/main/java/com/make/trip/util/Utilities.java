@@ -74,7 +74,7 @@ public class Utilities extends TripBase {
 		    {
 		        WebDriverWait wait = new WebDriverWait(driver, 30);
 		        wait.until(ExpectedConditions.elementToBeClickable(webe));
-		        System.out.println("The webElement is clickable");
+		        System.out.println("The webElement456 is clickable");
 		        return true;
 		    }
 		    catch (Exception e)
