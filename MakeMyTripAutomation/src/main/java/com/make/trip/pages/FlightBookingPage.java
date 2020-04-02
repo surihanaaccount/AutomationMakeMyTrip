@@ -33,7 +33,7 @@ public class FlightBookingPage extends TripBase {
 		}
 		selectNonstopDetails();
 		selectAirLines();
-		selectAmountRange();
+		//selectAmountRange();
 		Utilities.clickBtn(applyBtn);
 		viewAirlineDetails();
 	
